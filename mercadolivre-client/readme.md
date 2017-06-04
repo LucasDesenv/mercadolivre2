@@ -37,3 +37,22 @@ C:\Java\redis>redis-server.exe
 * 6 - Execute a classe `ClientApplication.java` por `run as > java application`.
 
 * 7 - Essa app está disponível em localhost:8090/pessoa-fisica/{cpf} e localhost:8090/pessoa-fisica/{cnpj}
+
+
+**REFERÊNCIAS**
+
+* **LOAD BALANCE RIBBON** 
+  * https://spring.io/guides/gs/client-side-load-balancing/
+
+* **CIRCUIT BREAKER (HYSTRIX)** 
+  * https://spring.io/guides/gs/circuit-breaker/
+  * https://github.com/spring-guides/gs-circuit-breaker/tree/master/complete
+
+* **SWAGGER**
+  * http://www.baeldung.com/swagger-2-documentation-for-spring-rest-api
+
+* **REDIS**
+  * https://github.com/rgl/redis/downloads
+  * http://www.baeldung.com/spring-data-redis-tutorial
+  * https://examples.javacodegeeks.com/enterprise-java/spring/spring-data-redis-example/
+

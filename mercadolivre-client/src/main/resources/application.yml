@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: client
+
+server:
+  port: 8090
+
+mercadolivre:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: localhost:8080/ml,localhost:9092,localhost:9999
+    ServerListRefreshInterval: 15000

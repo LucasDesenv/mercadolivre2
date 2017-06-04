@@ -1,8 +1,8 @@
 **Application Client**
 
-Essa Aplicação simula um cliente (frontend, serviços, etc...).
+Essa Aplicação simula um cliente que acessa os serviços do Microservice.
 Foram criados apenas dois serviços (GET de Pessoa Física e Jurídica) para exemplificar sua funcionalidade.
-Mas, nada impede de implementar os demais serviços.
+Mas, nada impede de implementar os demais serviços. Uma ideia a ser implementada é colocar o Eureka e Ribbon. Um para buscar os serviços e o outro para fazer o Load Balance.
 
 **Arquitetura**
 * Spring Boot.

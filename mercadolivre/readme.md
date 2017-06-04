@@ -4,7 +4,8 @@
 * Spring Data ElasticSearch.
 * Swagger para documentação.
 **Obs: Arquitetura representada pelo arquivo arquitetura-UML.png**
-#Passos:
+
+**Passos:**
  
 **1 - Ter uma instância do MySQL rodando em localhost:3306**
 

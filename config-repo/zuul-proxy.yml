@@ -1,0 +1,20 @@
+server:
+  port: ${PORT:8081}
+
+security:
+  basic:
+    enabled: false
+
+zuul:
+  routes:
+    produto:
+      path: /ml/**
+      serviceId: MERCADOLIVRE-SERVICE
+      
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000

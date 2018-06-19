@@ -36,7 +36,7 @@ C:\Java\redis>redis-server.exe
 
 * 6 - Execute a classe `ClientApplication.java` por `run as > java application`.
 
-* 7 - Essa app está disponível em localhost:8090/pessoa-fisica/{cpf} e localhost:8090/pessoa-fisica/{cnpj}
+* 7 - Essa app está disponível em localhost:8090/pessoa-fisica/{cpf} e localhost:8090/pessoa-juridica/{cnpj}
 
 
 **REFERÊNCIAS**
